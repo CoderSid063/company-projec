@@ -1,0 +1,190 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1280px;
+  height: 600px;
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.product-container{
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.product-image{
+  width:588px ;
+  height: 80%;
+  margin-left: -20px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color:white;
+
+}
+.thumbnail-images{
+  width: 85%;
+  height: 115px;
+  background-color: white;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.im{
+  width: 115px;
+  height: 115px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.summary{
+  width: 600px;
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-name{
+  width: 582px;
+  height: 60px;
+}
+.line{
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ccc;
+}
+.product-price{
+  width: 500px;
+  height: 60px;
+  display: flex;
+  margin-top: -20px;
+}
+.price{
+  font-weight: 900;
+}
+#compare_at_price{
+  text-decoration: line-through;
+}
+.price-off{
+  padding: 20px;
+  color: #f392e3;
+  font-weight:bold;
+  
+}
+.size-selector label {
+  padding: 10px;
+  width: 50px; 
+  height: 3px; 
+  border-radius: 5px;
+  background-color: rgb(243 237 237 / 60%);
+}
+.size-selector{
+  margin-top: -25px;
+  height: 81px;
+}
+
+.color-picker-container {
+  width: 300px;
+  height: 90px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.color-title {
+  font-weight:normal;
+  margin-bottom: 10px;
+}
+.color-box {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.color-box:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  border: 2px solid lightblue; /* Add border on hover */
+}
+
+/* Specify background colors for each box */
+.yellow { background-color: #f7e548f5; }
+.green { background-color: green; }
+.lightpink { background-color: lightpink; }
+.lightblue { background-color: lightblue; }
+
+.button-container{
+  display: flex;
+}
+.counter-container {
+  width: 200px;
+  height: 40px;
+  border-radius: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.circle-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: larger;
+  font-weight: 900;
+  background-color:transparent ;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#decrement {
+  margin-right: 10px;
+}
+
+#increment {
+  margin-left: 10px;
+}
+
+#counter {
+  font-size: 1.5em;
+}
+.add-to-cart-btn {
+  width: 300px;
+  border-radius: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #3d177cf0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-icon {
+  margin-right: 5px;
+}
+#cartMessage {
+  width: 400px;
+  height: 20px;
+  background-color: rgb(247 247 96 / 57%);
+  color: black;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+}
